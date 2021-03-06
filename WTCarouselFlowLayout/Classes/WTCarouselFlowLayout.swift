@@ -50,8 +50,8 @@ public class WTCarouselFlowLayout: UICollectionViewFlowLayout {
 
     fileprivate func setupCollectionView() {
         guard let collectionView = self.collectionView else { return }
-        if collectionView.decelerationRate != UIScrollViewDecelerationRateFast {
-            collectionView.decelerationRate = UIScrollViewDecelerationRateFast
+        if collectionView.decelerationRate != UIScrollView.DecelerationRate.fast {
+            collectionView.decelerationRate = UIScrollView.DecelerationRate.fast
         }
     }
 
